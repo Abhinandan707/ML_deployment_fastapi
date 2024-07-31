@@ -1,4 +1,5 @@
 [core]
     remote = check_dvc
+    no_scm = true
 ['remote "check_dvc"']
     url = gdrive://1phGE3wjd3uPTkb4nRE4kBx20wQrsZQ60
