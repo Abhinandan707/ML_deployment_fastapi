@@ -18,7 +18,7 @@ data = {"age": 52,
         }
 
 response = requests.post(
-    "http://127.0.0.1:8000/docs#/default/predict", data=json.dumps(data))
+    "https://ml-deployment-fastapi-1.onrender.com/predict", data=json.dumps(data))
 
 print(response.status_code)
 print(response.json())
