@@ -51,7 +51,7 @@ y_preds = inference(rf_model, X_test)
 precision, recall, fbeta = compute_model_metrics(y_test, y_preds)
 print("Precision: ", precision, " recall: ", recall, " fbeta: ", fbeta)
 
-# Check slices
+# Check data slices 
 compute_slice_metrics(
         model=rf_model,
         encoder=encoder,
